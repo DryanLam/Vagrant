@@ -2,7 +2,6 @@
 
 echo "Provisioning shell"
 
-mkdir vagrant_data
-
+# Install apaches service
 apt-get update
 apt-get install -y apache2
